@@ -50,7 +50,6 @@ body {
     margin      : 0 auto;
     padding     : 33px 8.33334% 0;
     width       : 100%;
-    background  : #231f20
 }
 
 .footer {
@@ -81,12 +80,16 @@ body {
     padding: 14px 24px;
 }
 
-/* Supporting marketing content */
-.marketing {
+.about {
+    margin: 40px 0;
+    background  : #F5F0EB
+}
+
+.main {
     margin: 40px 0;
 }
 
-.marketing p + h4 {
+.main p + h4 {
     margin-top: 28px;
 }
 
@@ -101,7 +104,7 @@ body {
     background  : #333092;
     color       : #FFF
 }
-
+/*
 .purpurtext {
     font-family : 'effralight';
     margin      : 0 auto;
@@ -110,7 +113,7 @@ body {
     background  : #333092;
     color       : #FFF
 }
-
+*/
 .co666 {
     color : #666 !important;
 }
