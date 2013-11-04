@@ -14,6 +14,8 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-bottom: 20px;
+    font-family: 'effralight';
+    font-size: 1.8em;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -71,15 +73,12 @@ body {
     margin: 30px 0;
 }
 
-.jumbotron {
-    font-family: 'effralight';
-    text-align: center;
-    margin-top: 20px;
-    background : #F5F0EB;
+.hero {
+    color : #666 !important;
+    float: right;
 }
 
 .who {
-    font-family: 'efframedium';
     margin-top: 20px;
     font-size: 1.2em;
     margin-bottom: 45px;
@@ -91,11 +90,11 @@ body {
 }
 
 .main {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .main p + h4 {
-    margin-top: 28px;
+    margin-top: 12px;
 }
 
 .top {
