@@ -26,7 +26,7 @@ body {
 
 /* Custom page header */
 .header {
-    /* border-bottom: 1px solid #e5e5e5; */
+    margin-bottom: 10px;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -35,6 +35,7 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+
 }
 
 /* Custom page footer */
@@ -43,6 +44,7 @@ body {
     color: #777;
     border-top: 1px solid #e5e5e5;
 }*/
+
 
 #footer {
     font-family : 'effralight';
@@ -69,15 +71,18 @@ body {
     margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
 .jumbotron {
+    font-family: 'effralight';
     text-align: center;
-    border-bottom: 1px solid #e5e5e5;
+    margin-top: 20px;
+    background : #F5F0EB;
 }
 
-.jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
+.who {
+    font-family: 'efframedium';
+    margin-top: 20px;
+    font-size: 1.2em;
+    margin-bottom: 45px;
 }
 
 .about {
@@ -97,12 +102,72 @@ body {
     background : url(/images/end_bg.jpg) repeat-y 50% 0;
 }
 
+.menu {
+    margin : 0 auto;
+    font-family: 'effralight';
+}
+
+.main-nav {
+    float      : right;
+    margin-top : 15px
+}
+
+.menu, .menu ul {
+    display         : block;
+    list-style-type : none;
+    margin          : 0;
+    padding         : 0
+}
+
+.menu li {
+    border         : 0;
+    display        : block;
+    float          : left;
+    margin         : 15px 0 0 0;
+    padding        : 0;
+    position       : relative;
+    z-index        : 5;
+    letter-spacing : 1px
+}
+
+.menu a {
+    font-family : 'efframedium';
+    font-size: 1.5em
+}
+
+#logo {
+    float  : left;
+    margin : 10px 23px 10px 0
+}
+
+#logo a {
+    display  : block;
+    z-index  : 99;
+    position : relative
+}
+
+.wrapper {
+    clear    : both;
+    margin   : 0 auto;
+    padding  : 0 5.611111111111111%;
+    position : relative;
+    width    : 87.67777777777778%
+}
+
+.clear {
+    clear : both
+}
+
 .purpur {
     margin      : 0 auto;
     width       : 100%;
     height      : 10px;
     background  : #333092;
     color       : #FFF
+}
+
+.co666 {
+    color : #666 !important;
 }
 /*
 .purpurtext {
@@ -114,9 +179,6 @@ body {
     color       : #FFF
 }
 */
-.co666 {
-    color : #666 !important;
-}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
