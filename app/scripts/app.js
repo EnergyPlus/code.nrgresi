@@ -5,5 +5,5 @@ define([], function () {
     //return '\'Allo \'Allo!';
 });
 
-$("#footer").load("/footer.html");
-$("#header").load("/header.html");
+$("#footer").load("footer.html");
+$("#header").load("header.html");

@@ -307,7 +307,7 @@ module.exports = function (grunt) {
             all: {
                 rjsConfig: '<%= yeoman.app %>/scripts/main.js'
             }
-        }
+        },
     });
 
     grunt.registerTask('server', function (target) {
