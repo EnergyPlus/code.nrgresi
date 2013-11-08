@@ -57,6 +57,7 @@
                             exclusive and one-of-a-kind relationships with over a hundred partners allows us to custom tailor products that 
                             will drive innovation in the retail energy space.  We are constantly working on new proucts and services and are looking for people to come join us to change retail energy.
                         </p>
+                        <br>
                         <h4>Why work at NRG Retail?</h4>
                         <p>
                             Let's be honest here: like every company that went a thousand miles an hour for a couple years, there is legacy code.  Our legacy code takes the form of a LAMP stack that powers sections of our corporate and marketing infrastructure as well as .NET platform that is our Ops and CRM.  Like an old Buick, it's comfortable and gets everyone where they need to go, but there are miles on it and maintenance isn't worth it (or fun) anymore.
@@ -69,9 +70,15 @@
                 <div class="row who">
                     <div class="col-10">
                         <h4>Where we are</h4>
-                        <p class="map">
-                            <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3711+Market+St,+Philadelphia,+PA&amp;aq=0&amp;oq=3711&amp;sll=39.952341,-75.197387&amp;sspn=0.01107,0.019913&amp;ie=UTF8&amp;hq=&amp;hnear=3711+Market+St,+Philadelphia,+Pennsylvania+19104&amp;t=m&amp;ll=39.961136,-75.193005&amp;spn=0.031578,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br />
+                        <p>
+                            3711 Market Street | 10th Floor | Philadelphia PA
                         </p>
+                        <div class="iframe-rwd">
+                            <p class="map">
+                                <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3711+Market+St,+Philadelphia,+PA&amp;aq=0&amp;oq=3711&amp;sll=39.952341,-75.197387&amp;sspn=0.01107,0.019913&amp;ie=UTF8&amp;hq=&amp;hnear=3711+Market+St,+Philadelphia,+Pennsylvania+19104&amp;t=m&amp;ll=39.961136,-75.193005&amp;spn=0.031578,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                            </p>
+                        </div>
+                        <br>
                         <p>
                             Our space is office free, casual dress, and we get free soda.  There's usually food floating around, so that's clutch at times.  We have a Starbucks machine (really we need two) and there's a Han Dynasty downstairs.  Dan dan noodles...they cannot be denied.
                         </p>
@@ -80,17 +87,10 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="row who">
-                <div class="col-6">
-                    <img src="images/bottom_border.png">
-                </div>
-            </div>
-        </div>
 
         <div class="container">
             <div class="row">
-                <div class="col-md-2 fleft">
+                <div class="col-md-2 fleft" >
                     <h4>Our tech</h4>
                     <ul>
                         <li>AngularJS</li>
@@ -188,7 +188,9 @@
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            var ga_account = 'UA-19219132-4';
+            ga('create', ga_account, 'code.nrgresidentialsolutions.com');
+            ga('send', 'pageview');
         </script>
 
         <!-- build:js scripts/main.js -->
