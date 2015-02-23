@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+console.log('you are here, apply online already');
