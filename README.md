@@ -1,7 +1,7 @@
 code.nrghomepower.com
 ================================
 
-Come work for us.
+Come work with us.
 --------------------------------
 
 
