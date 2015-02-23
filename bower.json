@@ -1,11 +1,7 @@
 {
   "name": "code-nrgresi-com",
-  "version": "0.0.0",
+  "private": true,
   "dependencies": {
-    "sass-bootstrap": "~3.0.0",
-    "requirejs": "~2.1.8",
-    "modernizr": "~2.6.2",
-    "jquery": "~1.10.2"
-  },
-  "devDependencies": {}
+    "bootstrap": "~3.2.0"
+  }
 }
